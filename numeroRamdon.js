@@ -4,7 +4,7 @@ var respuesta = document.getElementById("respuesta");
 
 
 
-function iniciar() {
+function inicializar() {
     var aleatorio = Math.round(Math.random() * (10 * 1));
     console.log(aleatorio)
     if (parseInt(numero.value) === aleatorio) {
